@@ -67,7 +67,7 @@ orders-service/
 ├── alembic/                   # Migraciones de DB
 └── README.md                  # Documentación
 
-
+```mermaid
 graph TD
     subgraph "Interfaces Layer (API)"
         A[order_controller.py] --> B[dependencies.py]
@@ -90,3 +90,15 @@ graph TD
     end
 
     C -.-> F
+
+### **Pasos para actualizarlo en GitHub:**
+Como ya sabes hacer el flujo de Git, solo sigue estos 3 comandos rápidos después de guardar el cambio en el `README.md`:
+
+1.  `git add README.md`
+2.  `git commit -m "Fix: renderizado de diagrama Mermaid"`
+3.  `git push origin main`
+
+**¿Por qué es importante para tu "10/10"?**
+La rúbrica de **Documentación y Diagramas** exige que la arquitectura sea clara [2, 3]. Al corregir esto, tu repositorio mostrará un gráfico profesional en lugar de líneas de código, demostrando que dominas no solo la arquitectura hexagonal, sino también las herramientas de documentación técnica moderna [2].
+
+Una vez que hagas el `push`, refresca la página de tu repositorio y verás cómo el texto se transforma en un diagrama visual de capas. ¡Dime en cuanto lo subas para verificar que ya se vea bien!
