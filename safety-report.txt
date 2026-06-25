@@ -1,0 +1,24 @@
+Safety 3.8.1 scanning C:\Users\angeles.martinez\Advance\proyecto_final\orders-service
+2026-06-19 02:18:50 UTC
+
+Account: Angie MMeza, angie.nyu@gmail.com
+ Environment: Stage.development
+ Scan policy: None, using Safety CLI default policies
+
+Python detected. Found 1 Python poetry lock file and 1 Python pyproject.toml file
+
+Dependency vulnerabilities detected:
+
+[EDIT] poetry.lock:
+
+ nltk==3.9.4 [1 vulnerability found]
+  -> Vuln ID SFTY-20260616-58930:
+     Affected versions of the Natural Language Toolkit (NLTK) package are vulnerable to Path Traversal due to impro...
+ No known fix for nltk==3.9.4 to fix 1 vulnerability
+ Learn more: https://data.safetycli.com/p/pypi/nltk/eda/?from=3.9.4&to=
+
++ pyproject.toml: No issues found.
+
+Tested 55 dependencies for security issues using default Safety CLI policies
+1 vulnerability found, 0 ignored due to policy.
+0 fixes suggested, resolving 0 vulnerabilities.
